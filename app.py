@@ -50,4 +50,4 @@ if st.button("Calcular Precio"):
     st.success(f"### 💰 Precio Estimado en USD: ${precio_final:,.2f}")
     
     # Un toque extra: comparar con el promedio
-    st.info(f"Este modelo utiliza las 3 variables nuevas que creaste: Servicios, Amplitud y Premium.")
+    st.info(f"Este modelo utiliza las 3 variables nuevas que se tomaron en cuenta: Servicios, Amplitud y Premium.")
