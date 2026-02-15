@@ -27,7 +27,7 @@ El dataset original fue procesado para normalizar unidades de medida y transform
   - Codificación de variables categóricas (One-Hot Encoding)
 - **Visualización Avanzada**: Gráficos con formato de moneda (Millones de $) y comparativas de rendimiento.
 
-## 🚀 Mejoras del Modelo (v2)
+## 🚀 Mejoras del Modelo de Regresión Lineal (v2)
 En esta versión, mejoramos la capacidad predictiva del modelo mediante **Ingeniería de Variables**:
 * **Servicios Total**: Combinación de aire acondicionado y parqueadero.
 * **Amplitud por Habitación**: Relación entre el área total y el número de cuartos.
