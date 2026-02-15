@@ -71,7 +71,7 @@ git clone https://github.com/IvanBohorquez21/Housing-IA-Project.git
 ### 2️ Instalar dependencias
 
 ```bash
-pip install pandas scikit-learn matplotlib seaborn joblib
+pip install -r requirements.txt
 ```
 
 ### 3️ Ejecutar los Notebooks
