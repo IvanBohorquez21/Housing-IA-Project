@@ -1,21 +1,22 @@
-# 🏠 Predicción de Precios de Viviendas con IA
+# 🏡 Housing IA Project - Predicción de Precios
 
-Este proyecto utiliza **Machine Learning** para analizar y predecir el precio de inmuebles basándose en características como el área (m²), número de habitaciones y equipamiento.
+Este proyecto utiliza **Machine Learning** (Regresión Lineal) para predecir el precio de viviendas basándose en características como el área, número de habitaciones, baños y servicios adicionales.
 
-## 📊 Análisis de Datos
-Durante la exploración inicial, convertimos las unidades a **metros cuadrados** y escalamos los precios a **millones** para facilitar la lectura.
+## 🚀 Logros del Proyecto
+* **Precisión del Modelo**: Logramos un **58.67% ($R^2$)** utilizando 9 variables clave.
+* **Procesamiento de Datos**: Conversión de unidades de medida y transformación de variables categóricas a numéricas.
+* **Visualización**: Creación de un gráfico de dispersión para comparar precios reales vs. predicciones.
 
-### Hallazgos clave:
-* Existe una correlación directa entre el tamaño de la casa y su valor.
-* El **aire acondicionado** es un factor determinante en el precio final, incluso en casas de igual tamaño.
+## 📊 Visualización de Resultados
+Aquí se muestra cómo el modelo predice los precios frente a los valores reales:
+![Gráfico de Predicciones](grafico_resultados.png)
 
-## 🤖 El Modelo de IA
-Se implementó un modelo de **Regresión Lineal** utilizando `Scikit-Learn`.
-* **Variables usadas:** Area ($m^2$), Habitaciones, Baños y Aire Acondicionado.
-* **Estado:** Entrenado y listo para predicciones.
+## 🛠️ Tecnologías Usadas
+* **Python** (Pandas, Scikit-Learn)
+* **Matplotlib & Seaborn** (Visualización)
+* **Git & GitHub** (Control de versiones)
 
-## 🛠️ Tecnologías utilizadas
-* **Python** (Lógica principal)
-* **Pandas** (Gestión de datos)
-* **Matplotlib/Seaborn** (Visualizaciones)
-* **Scikit-Learn** (Inteligencia Artificial)
+## 📁 Estructura
+* `/data`: Dataset original.
+* `/notebooks`: Análisis exploratorio y entrenamiento del modelo.
+* `/models`: Archivo `.pkl` del modelo entrenado.
