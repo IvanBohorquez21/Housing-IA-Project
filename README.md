@@ -27,6 +27,16 @@ El dataset original fue procesado para normalizar unidades de medida y transform
   - Codificación de variables categóricas (One-Hot Encoding)
 - **Visualización Avanzada**: Gráficos con formato de moneda (Millones de $) y comparativas de rendimiento.
 
+## 🚀 Mejoras del Modelo (v2)
+En esta versión, mejoramos la capacidad predictiva del modelo mediante **Ingeniería de Variables**:
+* **Servicios Total**: Combinación de aire acondicionado y parqueadero.
+* **Amplitud por Habitación**: Relación entre el área total y el número de cuartos.
+* **Categoría Premium**: Identificación de casas con múltiples baños y servicios de lujo.
+
+## 📊 Resultados
+* **Precisión R²**: 56.17%
+* **Error Medio Absoluto (MAE)**: $1,133,262 (Este valor indica la desviación promedio de nuestras predicciones).
+
 ---
 
 ## 📖 Diccionario de Datos
