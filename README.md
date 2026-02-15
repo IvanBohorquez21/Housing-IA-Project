@@ -64,11 +64,6 @@ Análisis de rendimiento entre un modelo simple y uno complejo:
 
 ![Duelo de Modelos](img/comparativa_modelos.png)
 
-### Grafico regresión lineal V2:
-![Gráfico de Resultados Modelo v2](img/resultados_modelo_v2.png)
-
-*Interpretación: Los puntos más cercanos a la línea representan predicciones precisas. La dispersión actual refleja un R² del 56.17%.*
-
 ---
 
 ## 🛠️ Instalación y Uso
