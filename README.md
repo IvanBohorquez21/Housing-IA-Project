@@ -6,18 +6,33 @@
 
 Este proyecto utiliza **Machine Learning** para predecir el precio de viviendas basándose en características como el área, número de habitaciones, baños y servicios adicionales.
 
+---
+
 ## 📊 Origen de los Datos
-Los datos utilizados en este proyecto fueron obtenidos de **Kaggle**, específicamente del dataset **[Housing Price Prediction](https://www.kaggle.com/datasets/yasserh/housing-prices-dataset)**. El dataset original fue procesado para normalizar unidades de medida y transformar variables categóricas para el entrenamiento de los modelos.
+
+Los datos utilizados en este proyecto fueron obtenidos de **Kaggle**, específicamente del dataset  
+**[Housing Price Prediction](https://www.kaggle.com/datasets/yasserh/housing-prices-dataset)**.
+
+El dataset original fue procesado para normalizar unidades de medida y transformar variables categóricas para el entrenamiento de los modelos.
+
+---
 
 ## 🚀 Logros del Proyecto
-* **Mejor Modelo**: Regresión Lineal con una precisión del **58.67% ($R^2$)**.
-* **Experimentación**: Se comparó con **Random Forest Regressor** (56.62%) para validar el rendimiento, concluyendo que para este volumen de datos, el modelo lineal es más robusto y generaliza mejor.
-* **Procesamiento de Datos**: Conversión de unidades (Sqft a m²), tratamiento de valores nulos y codificación de variables categóricas (One-Hot Encoding).
-* **Visualización Avanzada**: Gráficos con formato de moneda (Millones de $) y comparativas de rendimiento de modelos.
+
+- **Mejor Modelo**: Regresión Lineal con una precisión del **58.67% (R²)**.
+- **Experimentación**: Se comparó con **Random Forest Regressor** (56.62%) para validar el rendimiento, concluyendo que para este volumen de datos, el modelo lineal generaliza mejor.
+- **Procesamiento de Datos**:
+  - Conversión de unidades (Sqft a m²)
+  - Tratamiento de valores nulos
+  - Codificación de variables categóricas (One-Hot Encoding)
+- **Visualización Avanzada**: Gráficos con formato de moneda (Millones de $) y comparativas de rendimiento.
+
+---
 
 ## 📖 Diccionario de Datos
+
 | Columna | Descripción |
-| :--- | :--- |
+|----------|------------|
 | **area_m2** | Tamaño de la vivienda convertido a metros cuadrados. |
 | **bedrooms** | Cantidad de habitaciones. |
 | **bathrooms** | Número de baños completos. |
@@ -25,40 +40,61 @@ Los datos utilizados en este proyecto fueron obtenidos de **Kaggle**, específic
 | **parking** | Capacidad de estacionamiento (número de vehículos). |
 | **price** | Precio de venta final (Variable objetivo). |
 
+---
+
 ## 📊 Visualización de Resultados
 
 ### Precisión del Modelo Ganador (Lineal)
+
 Aquí se muestra cómo el modelo de Regresión Lineal predice los precios frente a los valores reales:
+
 ![Gráfico de Predicciones](img/grafico_resultados.png)
 
 ### Comparativa: Lineal vs. Random Forest
+
 Análisis de rendimiento entre un modelo simple y uno complejo:
+
 ![Duelo de Modelos](img/comparativa_modelos.png)
 
+---
+
 ## 🛠️ Instalación y Uso
+
 Para replicar este proyecto localmente, sigue estos pasos:
 
-1. **Clonar el repositorio:**
+### 1 Clonar el repositorio
+
 ```bash
-git clone [https://github.com/IvanBohorquez21/Housing-IA-Project.git](https://github.com/IvanBohorquez21/Housing-IA-Project.git)
+git clone https://github.com/IvanBohorquez21/Housing-IA-Project.git
+```
 
-2. **Instalar dependencias:**
-    pip install pandas scikit-learn matplotlib seaborn joblib
-3. **Ejecutar los Notebooks:**
-    Abre VS Code y ejecuta los archivos en orden:
+### 2️ Instalar dependencias
 
-        01_analisis_exploratorio.ipynb
+```bash
+pip install pandas scikit-learn matplotlib seaborn joblib
+```
 
-        02_entrenamiento_modelo.ipynb
+### 3️ Ejecutar los Notebooks
 
-        03_mejora_modelo_rf.ipynb
-###📁 Estructura del Repositorio
-    /data: Dataset original de precios de vivienda.
+Abre VS Code o Jupyter Notebook y ejecuta los archivos en este orden:
 
-    /notebooks: Procesos de análisis, limpieza y entrenamiento.
+```
+01_analisis_exploratorio.ipynb
+02_entrenamiento_modelo.ipynb
+03_mejora_modelo_rf.ipynb
+```
 
-    /models: Modelos entrenados en formato .pkl listos para producción.
+---
 
-    /img: Gráficos y visualizaciones generadas para el análisis.
-    
+## 📁 Estructura del Repositorio
+
+```
+/data       → Dataset original de precios de vivienda
+/notebooks  → Procesos de análisis, limpieza y entrenamiento
+/models     → Modelos entrenados en formato .pkl listos para producción
+/img        → Gráficos y visualizaciones generadas para el análisis
+```
+
+---
+
 Proyecto desarrollado como parte de un flujo de aprendizaje en Ciencia de Datos.
