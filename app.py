@@ -47,7 +47,7 @@ if st.button("Calcular Precio"):
     prediccion = modelo.predict(input_df)
     precio_final = prediccion[0]
     
-    st.success(f"### 💰 Precio Estimado: ${precio_final:,.2f}")
+    st.success(f"### 💰 Precio Estimado en USD: ${precio_final:,.2f}")
     
     # Un toque extra: comparar con el promedio
     st.info(f"Este modelo utiliza las 3 variables nuevas que creaste: Servicios, Amplitud y Premium.")
