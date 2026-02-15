@@ -78,22 +78,22 @@ pip install pandas scikit-learn matplotlib seaborn joblib
 
 Abre VS Code o Jupyter Notebook y ejecuta los archivos en este orden:
 
-```
+
 01_analisis_exploratorio.ipynb
 02_entrenamiento_modelo.ipynb
 03_mejora_modelo_rf.ipynb
-```
+
 
 ---
 
 ## 📁 Estructura del Repositorio
 
-```
+
 /data       → Dataset original de precios de vivienda
 /notebooks  → Procesos de análisis, limpieza y entrenamiento
 /models     → Modelos entrenados en formato .pkl listos para producción
 /img        → Gráficos y visualizaciones generadas para el análisis
-```
+
 
 ---
 
