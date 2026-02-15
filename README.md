@@ -2,6 +2,11 @@
 
 Este proyecto utiliza **Machine Learning** para predecir el precio de viviendas basándose en características como el área, número de habitaciones, baños y servicios adicionales.
 
+## 📊 Origen de los Datos
+Los datos utilizados en este proyecto fueron obtenidos de **Kaggle**, específicamente del dataset **[Housing Price Prediction](https://www.kaggle.com/datasets/yasserh/housing-prices-dataset)**. 
+
+Este conjunto de datos contiene información detallada sobre el mercado inmobiliario, incluyendo variables críticas como el área total, el número de habitaciones, baños, pisos, y comodidades adicionales (aire acondicionado, estacionamiento, etc.) que influyen en el precio final de las viviendas.
+
 ## 🚀 Logros del Proyecto
 * **Mejor Modelo**: Regresión Lineal con una precisión del **58.67% ($R^2$)**.
 * **Experimentación**: Se comparó con **Random Forest Regressor** (56.62%) para validar el rendimiento.
