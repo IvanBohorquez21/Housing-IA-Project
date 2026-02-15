@@ -110,4 +110,20 @@ Abre VS Code o Jupyter Notebook y ejecuta los archivos en este orden:
 
 ---
 
+## 📊 Fase 2: Feature Engineering y Resultados
+
+En esta etapa, mejoramos el modelo original creando nuevas variables que aportan más contexto:
+* **servicios_total**: Suma de aire acondicionado y parqueaderos.
+* **amplitud_habitacion**: Área total dividida por el número de dormitorios.
+* **es_premium**: Clasificación binaria para casas con alto equipamiento.
+
+### 📈 Visualización de Predicciones
+El siguiente gráfico muestra el desempeño del modelo actual (v2) comparando los precios reales vs. los predichos:
+
+![Resultados Modelo v2](img/resultados_modelo_v2.png)
+
+### 📉 Métricas Finales
+* **Precisión (R²):** 56.17%
+* **Error Medio Absoluto (MAE):** $1,133,262.05
+
 Proyecto desarrollado como parte de un flujo de aprendizaje en Ciencia de Datos.
