@@ -1,0 +1,16 @@
+# Entornos virtuales
+.venv/
+env/
+venv/
+
+# Archivos temporales de Python
+__pycache__/
+*.py[cod]
+
+# Notebooks (archivos ocultos de Jupyter)
+.ipynb_checkpoints
+
+# Configuración de VS Code
+.vscode/
+
+# Datos (Opcional: solo si el archivo es gigante, pero por ahora déjalo así)
