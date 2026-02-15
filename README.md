@@ -121,4 +121,7 @@ El siguiente gráfico muestra el desempeño del modelo actual (v2) comparando lo
 * **Precisión (R²):** 56.17%
 * **Error Medio Absoluto (MAE):** $1,133,262.05
 
+## 🚀 Demo en Vivo
+Puedes probar la aplicación interactiva aquí: [Simulador de Precios de Vivienda](https://vivienda-ia-ivan.streamlit.app/)
+
 Proyecto desarrollado como parte de un flujo de aprendizaje en Ciencia de Datos.
