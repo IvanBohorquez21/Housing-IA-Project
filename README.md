@@ -1,22 +1,37 @@
 # 🏡 Housing IA Project - Predicción de Precios
 
-Este proyecto utiliza **Machine Learning** (Regresión Lineal) para predecir el precio de viviendas basándose en características como el área, número de habitaciones, baños y servicios adicionales.
+Este proyecto utiliza **Machine Learning** para predecir el precio de viviendas basándose en características como el área, número de habitaciones, baños y servicios adicionales.
 
 ## 🚀 Logros del Proyecto
-* **Precisión del Modelo**: Logramos un **58.67% ($R^2$)** utilizando 9 variables clave.
-* **Procesamiento de Datos**: Conversión de unidades de medida y transformación de variables categóricas a numéricas.
-* **Visualización**: Creación de un gráfico de dispersión para comparar precios reales vs. predicciones.
+* **Mejor Modelo**: Regresión Lineal con una precisión del **58.67% ($R^2$)**.
+* **Experimentación**: Se comparó con **Random Forest Regressor** (56.62%) para validar el rendimiento.
+* **Procesamiento de Datos**: Conversión de unidades (Sqft a m²), tratamiento de valores nulos y codificación de variables categóricas.
+* **Visualización Avanzada**: Gráficos con formato de moneda (Millones de $) y comparativas de modelos.
 
 ## 📊 Visualización de Resultados
-Aquí se muestra cómo el modelo predice los precios frente a los valores reales:
+
+### Precisión del Modelo Ganador (Lineal)
 ![Gráfico de Predicciones](grafico_resultados.png)
 
-## 🛠️ Tecnologías Usadas
-* **Python** (Pandas, Scikit-Learn)
-* **Matplotlib & Seaborn** (Visualización)
-* **Git & GitHub** (Control de versiones)
+### Comparativa: Lineal vs. Random Forest
+![Duelo de Modelos](comparativa_modelos.png)
 
-## 📁 Estructura
-* `/data`: Dataset original.
-* `/notebooks`: Análisis exploratorio y entrenamiento del modelo.
-* `/models`: Archivo `.pkl` del modelo entrenado.
+## 🛠️ Tecnologías Usadas
+* **Python**: Pandas, Scikit-Learn
+* **Visualización**: Matplotlib & Seaborn
+* **Persistencia**: Joblib para guardar modelos `.pkl`
+* **Git & GitHub**: Control de versiones y despliegue de portafolio.
+
+## 📁 Estructura del Repositorio
+* `/data`: Dataset original de precios de vivienda.
+* `/notebooks`: 
+    * `01_analisis_exploratorio.ipynb`
+    * `02_entrenamiento_modelo.ipynb`
+    * `03_mejora_modelo_rf.ipynb` (Nuevos experimentos)
+* `/models`: 
+    * `house_price_model.pkl` (Modelo Ganador)
+    * `random_forest_model.pkl` (Modelo Experimental)
+    * `model_columns.pkl` (Variables de entrada)
+
+---
+*Proyecto desarrollado como parte de un flujo de aprendizaje en Ciencia de Datos.*
