@@ -8,7 +8,7 @@ __pycache__/
 *.py[cod]
 
 # Notebooks (archivos ocultos de Jupyter)
-.ipynb_checkpoints
+.ipynb_checkpointsgit add .
 
 # Configuración de VS Code
 .vscode/
