@@ -7,13 +7,13 @@
 Este proyecto utiliza **Machine Learning** para predecir el precio de viviendas basándose en características como el área, número de habitaciones, baños y servicios adicionales.
 
 ## 📊 Origen de los Datos
-Los datos utilizados en este proyecto fueron obtenidos de **Kaggle**, específicamente del dataset **[Housing Price Prediction](https://www.kaggle.com/datasets/yasserh/housing-prices-dataset)**. El dataset original fue procesado para normalizar unidades de medida y limpiar variables categóricas.
+Los datos utilizados en este proyecto fueron obtenidos de **Kaggle**, específicamente del dataset **[Housing Price Prediction](https://www.kaggle.com/datasets/yasserh/housing-prices-dataset)**. El dataset original fue procesado para normalizar unidades de medida y transformar variables categóricas para el entrenamiento de los modelos.
 
 ## 🚀 Logros del Proyecto
 * **Mejor Modelo**: Regresión Lineal con una precisión del **58.67% ($R^2$)**.
-* **Experimentación**: Se comparó con **Random Forest Regressor** (56.62%) para validar el rendimiento, concluyendo que para este volumen de datos, el modelo lineal es más robusto.
-* **Procesamiento de Datos**: Conversión de unidades (Sqft a m²), tratamiento de valores nulos y codificación de variables categóricas.
-* **Visualización Avanzada**: Gráficos con formato de moneda (Millones de $) y comparativas de modelos.
+* **Experimentación**: Se comparó con **Random Forest Regressor** (56.62%) para validar el rendimiento, concluyendo que para este volumen de datos, el modelo lineal es más robusto y generaliza mejor.
+* **Procesamiento de Datos**: Conversión de unidades (Sqft a m²), tratamiento de valores nulos y codificación de variables categóricas (One-Hot Encoding).
+* **Visualización Avanzada**: Gráficos con formato de moneda (Millones de $) y comparativas de rendimiento de modelos.
 
 ## 📖 Diccionario de Datos
 | Columna | Descripción |
@@ -39,8 +39,9 @@ Análisis de rendimiento entre un modelo simple y uno complejo:
 Para replicar este proyecto localmente, sigue estos pasos:
 
 1. **Clonar el repositorio:**
- 
-   git clone [https://github.com/IvanBohorquez21/Housing-IA-Project.git](https://github.com/IvanBohorquez21/Housing-IA-Project.git)
+```bash
+git clone [https://github.com/IvanBohorquez21/Housing-IA-Project.git](https://github.com/IvanBohorquez21/Housing-IA-Project.git)
+
 2. **Instalar dependencias:**
     pip install pandas scikit-learn matplotlib seaborn joblib
 3. **Ejecutar los Notebooks:**
@@ -51,7 +52,7 @@ Para replicar este proyecto localmente, sigue estos pasos:
         02_entrenamiento_modelo.ipynb
 
         03_mejora_modelo_rf.ipynb
-##📁 Estructura del Repositorio
+###📁 Estructura del Repositorio
     /data: Dataset original de precios de vivienda.
 
     /notebooks: Procesos de análisis, limpieza y entrenamiento.
