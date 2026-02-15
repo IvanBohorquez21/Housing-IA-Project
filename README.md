@@ -52,12 +52,10 @@ En esta versión, mejoramos la capacidad predictiva del modelo mediante **Ingeni
 
 ---
 
-## 📊 Visualización de Resultados
+### 📊 Visualización de Resultados
+A continuación se muestra la relación entre los precios reales del dataset de prueba y las predicciones realizadas por el modelo. La línea roja punteada representa la predicción perfecta.
 
-### Precisión del Modelo Ganador (Lineal)
-
-Aquí se muestra cómo el modelo de Regresión Lineal predice los precios frente a los valores reales:
-
+### Grafico regresión lineal:
 ![Gráfico de Predicciones](img/grafico_resultados.png)
 
 ### Comparativa: Lineal vs. Random Forest
@@ -65,6 +63,11 @@ Aquí se muestra cómo el modelo de Regresión Lineal predice los precios frente
 Análisis de rendimiento entre un modelo simple y uno complejo:
 
 ![Duelo de Modelos](img/comparativa_modelos.png)
+
+### Grafico regresión lineal V2:
+![Gráfico de Resultados Modelo v2](img/resultados_modelo_v2.png)
+
+*Interpretación: Los puntos más cercanos a la línea representan predicciones precisas. La dispersión actual refleja un R² del 56.17%.*
 
 ---
 
